@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-color: #AA9A8A;
+}
+
+p {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #45404C;
+    font-size: 20px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.parent-song {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 66px;
+}
+
+.song-title-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.song-title {
+    position: absolute;
+    left: 55px;
+    bottom: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.song-details {
+    position: absolute;
+    left: 55px;
+    bottom: 13px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.audio-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.vinyl-base {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.vinyl-album {
+    animation: rotation 5s infinite linear;
+    /*display: block;
+        margin-left: auto;
+        margin-right: auto;*/
+    position: absolute;
+    top: 40px;
+    left: 33px;
+}
+
+.vinyl-spinner {
+    position: absolute;
+    top: 37px;
+    left: 220px;
+}
+
+.exit-button {
+    position: absolute;
+    top: 190px;
+    left: 330px;
+    border: none;
+    background: none;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to { transform: rotate(359deg); }
+}
+
+.column {
+    float: left;
+}
+
+.progress {
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    /*margin: 10px 0;*/
+    position: absolute;
+    height: 4px;
+    width: 397px;
+    left:10px;
+}
+
+.progress-bar {
+    background-color: #000;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
