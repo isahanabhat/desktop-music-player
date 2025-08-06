@@ -6,8 +6,9 @@ Currently, this app consists of 11 Taylor Swift songs.
 
 ### How to use the player
 1. Download the repository.
-2. Go into the desktop-music-player directory with the command `cd desktop-music-player`
-3. Run `npm run start` in the console to start the app.
+2. Run `cd desktop-music-player` to navigate to the player directory.
+3. Run `npm install` in the console to install the required dependencies.
+4. Run `npm run start` in the console to start the app.
 
 ### Add songs to the music player
 To add more songs, 
